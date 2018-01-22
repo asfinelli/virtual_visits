@@ -1,0 +1,13 @@
+<iframe src="https://tokbox.com/embed/embed/ot-embed.js?embedId=51e6171d-9d47-4c82-ae87-35a53a8c3a68&room=<%= @appointment.id %>&iframe=true" width="900px" height="450px" allow="microphone; camera" ></iframe>
+
+<%= form_for @appointment do |f| %>
+
+<p>
+  <div class="follow-up">
+    <%= f.label :follow_up %><br />
+    <%= f.text_field :follow_up, required: true %>
+  </div>
+  <p>
+    <%= f.submit 'Confirm' %>
+  </p>
+<% end %>

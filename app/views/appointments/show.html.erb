@@ -1,0 +1,50 @@
+<body>
+  <div class="card">
+
+  <h3 id="greeting"><%= "Dr. #{current_doctor.name} will be with you shortly #{current_user.name.upcase}." %></h3>
+  </div>
+  <!-- <div class="container"> -->
+  <div class="row">
+
+    <div class="col s12 m4 l3" id="left">
+      <div class="date">
+          <div class="card">
+            <%= DateTime.now.strftime("%m/%d/%Y %H:%M") %>
+          </div>
+      </div>
+      <div class="appointment">
+        <div class="card">
+          <div class="link"><%= link_to "Make an Appointment", new_appointment_path %></div>
+        </div>
+      </div>
+      <div class="appointmentqueue">
+        <div class="card">
+          <div class="link"><%= link_to "Chat With Your Doctor", appointment_path %></div>
+        </div>
+      </div>
+      <div class="history">
+        <div class="card">
+          <div class="link"><%= link_to "Patient History", users_path %></div>
+        </div>
+      </div>
+      <div class="edit">
+        <div class="card">
+          <div class="link">  <%= link_to "Edit Profile", edit_user_path %>
+          </div>
+        </div>
+      </div>
+      <div class="logout">
+        <div class="card">
+          <div class="link"><%= link_to "Logout", root_path, method: :delete %></div>
+        </div>
+      </div>
+      </div>
+
+      <div class="col s12 m8 l9" id="right">
+
+      <br>
+      <iframe src="https://tokbox.com/embed/embed/ot-embed.js?embedId=51e6171d-9d47-4c82-ae87-35a53a8c3a68&room=DEFAULT_ROOM&iframe=true" width="600px" height="500px" allow="microphone; camera" ></iframe>
+  </div>
+</div>
+<!-- </div> -->
+</body>

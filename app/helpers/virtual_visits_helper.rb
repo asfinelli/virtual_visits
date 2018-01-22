@@ -1,0 +1,2 @@
+module VirtualVisitsHelper
+end

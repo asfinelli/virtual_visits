@@ -1,0 +1,13 @@
+// Place all the styles related to the charges controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.amount {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em
+}
+
+.stripe-button {
+  display: flex;
+  justify-content: center;
+}

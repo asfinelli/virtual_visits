@@ -1,0 +1,132 @@
+<header><%# render 'layouts/application' %></header>
+
+
+<h2 id="title">FAQ PAGE</h2>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script>
+ $(document).ready(function() {
+
+    $('.faq_question').click(function() {
+
+        if ($(this).parent().is('.open')){
+            $(this).closest('.faq').find('.faq_answer_container').animate({'height':'0'},500);
+            $(this).closest('.faq').removeClass('open');
+
+            }else{
+                var newHeight =$(this).closest('.faq').find('.faq_answer').height() +'px';
+                $(this).closest('.faq').find('.faq_answer_container').animate({'height':newHeight},500);
+                $(this).closest('.faq').addClass('open');
+            }
+
+    });
+
+});
+</script>
+<style>
+/*FAQS*/
+.faq_question {
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+    /* display: inline-block; */
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+.faq_answer_container {
+    height: 0px;
+    overflow: hidden;
+    padding: 0px;
+    margin: 1em;
+    text-align: center;
+    font-size: 18px;
+    background-color: #f2f2f2;
+    /* border-bottom-style: ridge; */
+}
+.faq_answer {
+  text-align: center;
+  font-size: 18px;
+  border-top-style: ridge;
+  /* border-bottom-style: ridge; */
+  border-bottom-color: black;
+
+}
+</style>
+
+<div class="faq_container">
+   <div class="faq">
+      <div class="faq_question">What is Virtual Visit?</div>
+           <div class="faq_answer_container">
+              <div class="faq_answer">A platform for anyone, with insurance or without,
+              to be able to virtually see a doctor regarding minor issues.</div>
+           </div>
+    </div>
+ </div>
+
+ <div class="faq_container">
+    <div class="faq">
+       <div class="faq_question">How much does a visit cost?</div>
+            <div class="faq_answer_container">
+               <div class="faq_answer">rates start at $40.00 per appointment</div>
+            </div>
+     </div>
+  </div>
+
+  <div class="faq_container">
+     <div class="faq">
+        <div class="faq_question">How do you pay?</div>
+             <div class="faq_answer_container">
+                <div class="faq_answer">We take all major credit cards, and offer a seamless
+                way to pay directly through our application.</div>
+             </div>
+      </div>
+   </div>
+
+   <div class="faq_container">
+      <div class="faq">
+         <div class="faq_question">Are these REAL doctor visits?</div>
+              <div class="faq_answer_container">
+                 <div class="faq_answer">Yes. Our team of Physicians are licensed Medical Doctors, Physician's Assistants, and Nurse Practitioners.
+                 Every single one of our licensed Medical Team can legally diagnose and prescribe, via Virtual Visit.</div>
+              </div>
+       </div>
+    </div>
+
+    <div class="faq_container">
+       <div class="faq">
+          <div class="faq_question">What happens if the doctor can't help me without an in-office visit?</div>
+               <div class="faq_answer_container">
+                  <div class="faq_answer">The Doctor will recommend that you make an appointment for an in-office visit.</div>
+               </div>
+        </div>
+     </div>
+
+     <div class="faq_container">
+        <div class="faq">
+           <div class="faq_question">If the Virtual Visit Doctor can't help me, will I get any of my money back?</div>
+                <div class="faq_answer_container">
+                   <div class="faq_answer">Virtual Visit will refund 50% of your payment, once the doctor acknowledges the visit is finished.</div>
+                </div>
+         </div>
+      </div>
+
+      <div class="faq_container">
+         <div class="faq">
+            <div class="faq_question">What if the doctor sends my prescription to the wrong pharmacy?</div>
+                 <div class="faq_answer_container">
+                    <div class="faq_answer">Since all prescriptions are sent electronically, it is easy to cancel and resend to another pharmacy.  There is a link, to contact your doctor on the contacts page.</div>
+                 </div>
+          </div>
+       </div>
+
+       <div class="faq_container">
+          <div class="faq">
+             <div class="faq_question">I don't have insurance, and my prescription costs to much.  Is there a cheaper, generic version of the drug that is available?</div>
+                  <div class="faq_answer_container">
+                     <div class="faq_answer">Please fill out the form to contact your doctor as soon as possible.  Your prescribing Physician will discuss other options with you, and will resend a new prescription as soon as possible</div>
+                  </div>
+           </div>
+        </div>

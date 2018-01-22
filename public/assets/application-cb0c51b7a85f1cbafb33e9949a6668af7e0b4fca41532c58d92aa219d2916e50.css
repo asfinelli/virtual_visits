@@ -1,0 +1,274 @@
+/* line 4, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/charges.scss */
+.amount {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+}
+
+/* line 10, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/charges.scss */
+.stripe-button {
+  display: flex;
+  justify-content: center;
+}
+/* line 5, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/doctors.scss */
+label {
+  color: #616161;
+  font-size: 18px;
+}
+/* line 4, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/doctors_sessions.scss */
+#signin {
+  text-align: center;
+}
+/* line 4, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/pages.scss */
+p {
+  font-size: 17px;
+}
+
+/* line 7, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/pages.scss */
+.img {
+  padding-top: 4em;
+}
+
+/* line 10, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/pages.scss */
+h2 {
+  text-align: center;
+  color: #616161;
+}
+
+/* line 14, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/pages.scss */
+h3 {
+  text-align: center;
+  font-size: 22px;
+}
+
+/* line 18, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/pages.scss */
+h4 {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+/* line 24, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/pages.scss */
+h6 {
+  text-align: center;
+  color: #616161;
+}
+
+/* line 30, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/pages.scss */
+li {
+  align-items: center;
+}
+/* line 4, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+#signin {
+  text-align: center;
+}
+
+/* line 7, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+#video {
+  padding-left: 6em;
+  padding-right: 6em;
+}
+
+/* line 14, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+#greeting h3 {
+  font-size: 36px;
+}
+
+/* line 20, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+.card {
+  background-color: #eceff1;
+  text-align: center;
+  color: #424242;
+  padding: 1em;
+}
+
+/* line 30, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+.edit {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+/* line 35, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+.date {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* line 41, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+.appointment {
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+/* line 46, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+.history {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+/* line 52, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+.link {
+  font-size: 16px;
+}
+
+/* line 55, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+.link a:link {
+  color: #424242;
+}
+
+/* line 58, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+.link a:visited {
+  color: #424242;
+}
+
+/* line 61, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+.link a:hover {
+  color: #424242;
+}
+
+/* line 64, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+.link a:active {
+  color: #424242;
+}
+
+/* line 73, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+#last {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  text-align: right;
+  font-size: 16px;
+  color: #424242;
+}
+
+/* line 81, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+#message {
+  padding-bottom: 2em;
+  text-align: right;
+  font-size: 16px;
+  color: #424242;
+}
+
+/* line 87, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+#view {
+  padding-bottom: 2em;
+  text-align: right;
+  font-size: 16px;
+  color: #424242;
+}
+
+/* line 93, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/sessions.scss */
+.script {
+  text-align: right;
+  align-items: flex-end;
+}
+/* line 4, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/users.scss */
+.state {
+  background-color: #cfd8dc;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *
+
+
+ */
+/* line 27, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+body {
+  background-color: #eceff1;
+}
+
+/* line 33, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+#title {
+  font-size: 36px;
+}
+
+/* line 36, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+#doctor_name {
+  color: black;
+}
+
+/* line 39, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+.footer-copyright {
+  text-align: center;
+}
+
+/* line 42, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+.input-field label {
+  color: black;
+}
+
+/* label focus color */
+/* line 46, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+.input-field input[type=text]:focus + label {
+  color: #63d6fe;
+}
+
+/* label underline focus color */
+/* line 50, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #63d6fe;
+  box-shadow: 0 1px 0 0 #d7dae0;
+}
+
+/* valid color */
+/* line 55, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #00be7f;
+  box-shadow: 0 1px 0 0 #00be7f;
+}
+
+/* invalid color */
+/* line 60, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #fe1313;
+  box-shadow: 0 1px 0 0 #fe1313;
+}
+
+/* icon prefix focus color */
+/* line 65, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+.input-field .prefix.active {
+  color: #000;
+}
+
+/* line 68, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+#brand {
+  text-align: center;
+  color: #616161;
+}
+
+/* line 72, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+a:link {
+  color: #424242;
+}
+
+/* line 75, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+a:visited {
+  color: #424242;
+}
+
+/* line 78, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+a:hover {
+  color: #424242;
+  background-color: #e57373;
+}
+
+/* line 82, /Users/clairemurray/Desktop/wyncode/virtualvisit6/app/assets/stylesheets/application.scss */
+a:active {
+  color: #424242;
+  background-color: #424242;
+}

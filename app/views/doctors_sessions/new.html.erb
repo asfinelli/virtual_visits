@@ -1,0 +1,16 @@
+<header><%# render 'layouts/application' %></header>
+
+<h2 id="signin">Physician Sign In</h2>
+<%= form_for @doctor, url: doctors_sessions_path do |form| %>
+<p>
+  <%= form.label :username %>
+  <%= form.text_field :username %>
+</p>
+<p>
+  <%= form.label :password %>
+  <%= form.password_field :password %>
+</p>
+<button class="btn waves-effect waves-light" type="submit" name="action"> <%= form.submit "Sign In" %>
+  <i class="material-icons right">send</i>
+</button>
+<% end %>

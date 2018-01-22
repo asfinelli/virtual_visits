@@ -1,0 +1,121 @@
+// Place all the styles related to the sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#signin {
+  text-align: center;
+}
+#video {
+  padding-left: 6em;
+  padding-right: 6em;
+}
+.large-material-icons {
+
+}
+#greeting h3 {
+  font-size: 36px;
+}
+.row {
+
+}
+.card {
+  background-color: #eceff1;
+  text-align: center;
+  color: #424242;
+  padding: 1em;
+}
+// .card-panel {
+//   height: 6em;
+//   width: 8em;
+// }
+.edit {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 1em;
+}
+.date {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.appointment {
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 1em;
+}
+.history {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.link {
+  font-size: 16px;
+}
+.link a:link {
+  color: #424242;
+}
+.link a:visited {
+  color: #424242;
+}
+.link a:hover {
+  color: #424242;
+}
+.link a:active {
+  color: #424242;
+}
+#left {
+  // background-color: #bdbdbd;
+}
+#right {
+// background-color: #bdbdbd;
+}
+#last {
+  // font: "Lucida" 24px, serif;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: right;
+  font-size: 16px;
+  color: #424242;
+}
+#message {
+  padding-bottom: 1em;
+  text-align: right;
+  font-size: 16px;
+  color: #424242;
+}
+#view {
+  padding-bottom: 1em;
+  text-align: right;
+  font-size: 16px;
+  color: #424242;
+}
+.script {
+  text-align: right;
+  align-items: flex-end;
+}
+.chat {
+  padding-bottom: 1em;
+  text-align: right;
+  font-size: 16px;
+  color: #424242;
+}
+
+// p#last {
+//   display: flex;
+//   justify-content: center;
+// }
+//
+// p#message {
+//   display: flex;
+//   justify-content: center;
+// }
+// p#view {
+//   display: flex;
+//   justify-content: center;
+// }
+//
+// p#pickup {
+//   display: flex;
+//   justify-content: center;
+// }

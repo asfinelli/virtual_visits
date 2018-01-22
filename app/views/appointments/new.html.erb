@@ -1,0 +1,50 @@
+<center><h4 class="center">Welcome to Virtual Visit! Appointment System</h4></center>
+
+<h5 class="center">Please fill out the form below:</h5>
+
+<%= form_for @appointment do |f| %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name, autofocus: true, required: true, value: current_user.name %>
+  </div>
+  <div class="field">
+    <%= f.label :symptoms %><br />
+    <%= f.text_area :symptoms, autofocus: true, required: true %>
+  </div>
+  <div class="field">
+    <%= f.label :blood_pressure %><br />
+    <%= f.text_field :blood_pressure, autofocus: true, required: true %>
+  </div>
+  <div class="field">
+    <%= f.label :temperature %><br />
+    <%= f.text_field :temperature, autofocus: true, required: true %>
+  </div>
+  <div class="field">
+    <%= f.label :medications %><br />
+    <%= f.text_field :medications, autofocus: true, required: true %>
+  </div>
+
+<h3>If you have any photos of your condition that you would like to upload, please attach them now</h3>
+    <div class="file-field input-field">
+      <div class="btn">
+        <span>File Upload</span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+    </div>
+
+
+
+    <!-- </div> -->
+  <button class="btn waves-effect waves-light" type="submit" name="action"> <%= f.submit "Submit Appointment" %>
+    <i class="material-icons right">send</i>
+  </button>
+  <% end %>
+
+
+
+
+  <%# submit_tag 'Make Appointment' %>
