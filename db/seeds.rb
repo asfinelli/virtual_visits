@@ -7,6 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 User.destroy_all
 #
+Doctor.destroy_all
+
 User.create(username: "mrknox",
             password_digest: "asdf1",
             name: "Mickey Knox",
@@ -57,7 +59,7 @@ Doctor.create(username: "dwright",
             postal_code: "33204",
             country: "United States");
 
-Appointment.create(user_id:"#{current_user}",
+Appointment.create(user_id: 21,
                     name:  "Donnie Darko",
                     symptoms: "fever",
                     blood_pressure: "140/70",
