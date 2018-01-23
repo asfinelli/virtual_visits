@@ -1,5 +1,4 @@
 class UsersController < ApplicationController
-# before_action :require_logged_in, :require_doctor_logged_in, 
   def index
     @appointments = Appointment.where(user: current_user)
   end
