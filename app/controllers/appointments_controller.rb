@@ -1,5 +1,6 @@
 class AppointmentsController < ApplicationController
-
+  before_action :require_doctor_logged_in
+  before_action :require_logged_in
   def index
     @appointments = Appointment.all
   end
@@ -23,14 +24,12 @@ class AppointmentsController < ApplicationController
   end
 
   def show
-    # @appointment = Appointment.new(user: current_user)
     @appointment = Appointment.where(id: params[:id])
   end
 
   def update
     @appointment = Appointment.find(params[:id])
     appointment_params.merge(doctor: current_doctor)
-    # if @appointment.update_attributes(doctor_id: current_doctor.id)
     if @appointment.update(appointment_params)
       redirect_to virtual_visit_path
     else
