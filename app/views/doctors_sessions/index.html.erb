@@ -38,11 +38,13 @@
 
 
 <div class="col s12 m8 l9">
- <p>
-   <i class="large material-icons">video_call</i>
- </p>
- <div class="video-container">
-<iframe src="https://tokbox.com/embed/embed/ot-embed.js?embedId=51e6171d-9d47-4c82-ae87-35a53a8c3a68&room=DEFAULT_ROOM&iframe=true" width="600px" height="500px" allow="microphone; camera" ></iframe></div>
+<p style="text-align: centered;">
+  <h3> Waitlist Count <%= @appointments.where.not(doctor: nil).count %> </h3>
+
+ <div class="video-container" style= "float: right;">
+<h2>   <%= @appointments.where.not(doctor: nil).count %> </h2>
+</p>
+</div>
 </div>
 </div>
 <!-- </div> -->

@@ -2,7 +2,7 @@ class DoctorsSessionsController < ApplicationController
   before_action :require_doctor_logged_in, only: [:index]
 
   def index
-
+    @appointments = Appointment.all
   end
 
   def show
