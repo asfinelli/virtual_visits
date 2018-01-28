@@ -1,8 +1,10 @@
 class SessionsController < ApplicationController
 before_action :require_logged_in, only: [:show]
+
   def new
    @user = User.new
   end
+
   def create
    @user = User.find_by(username: params[:username]).try(:authenticate, params[:password])
    if @user
@@ -13,14 +15,14 @@ before_action :require_logged_in, only: [:show]
      redirect_to new_user_path
    end
   end
+
   def show
     @user = User.all
   end
 
   def index
     redirect_to new_session_path
-    end
-
+  end
 
   def destroy
     User.find(session[:user_id]).destroy

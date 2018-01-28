@@ -7,7 +7,6 @@ class DoctorsSessionsController < ApplicationController
 
   def show
     redirect_to new_doctors_session_path
-    # @appointments = Appointment.all
   end
 
   def new
@@ -15,7 +14,6 @@ class DoctorsSessionsController < ApplicationController
   end
 
   def create
-    # byebug
     @doctor = Doctor.find_by(username: params[:doctor][:username]).try(:authenticate, params[:doctor][:password])
 
     if @doctor

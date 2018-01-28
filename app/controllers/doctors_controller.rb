@@ -23,16 +23,16 @@ class DoctorsController < ApplicationController
     @doctor = Doctor.new
   end
 
-    def create
-      @doctor = Doctor.new(doctor_params)
-      if @doctor.save
-        redirect_to doctors_sessions_path, notice: 'Created Doctor'
-      else
-        render :new
-      end
+  def create
+    @doctor = Doctor.new(doctor_params)
+    if @doctor.save
+      redirect_to doctors_sessions_path, notice: 'Created Doctor'
+    else
+      render :new
     end
-    private
-        def doctor_params
-          params.require(:doctor).permit(:username, :name, :dob, :phone_number, :email, :gender, :address, :city, :state, :postal_code, :country, :password, :password_confirmation)
-        end
+  end
+  private
+  def doctor_params
+    params.require(:doctor).permit(:username, :name, :dob, :phone_number, :email, :gender, :address, :city, :state, :postal_code, :country, :password, :password_confirmation)
+  end
 end
