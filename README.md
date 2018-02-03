@@ -1,24 +1,5 @@
-# README
+This app is a secure video conference app that could potentially be used for virtual doctor visits.  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was my final project for my class at Wyncode.  
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+API's used are Tokbox which is used for the secure conferences and Stripe for processing payments.
