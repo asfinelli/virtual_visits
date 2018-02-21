@@ -1,6 +1,6 @@
 class AppointmentsController < ApplicationController
-  # before_action :require_doctor_logged_in
-  # before_action :require_logged_in
+
+
 
   def index
     @appointments = Appointment.all

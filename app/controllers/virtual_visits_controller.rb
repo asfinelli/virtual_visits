@@ -1,6 +1,5 @@
 class VirtualVisitsController < ApplicationController
-  before_action :require_logged_in
-  before_action :require_doctor_logged_in
+
   def show
     @appointment = Appointment.find(params[:id])
 
